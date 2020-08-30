@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Outfit Style</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <style>
+      body {
+        background-image: url("3.jpeg");
+      }
+      .encabezado {
+        background-color: #ffe4e1;
+        margin-right: 80px;
+        margin-left: 80px;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      h1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      nav .row{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap:15px;
+      }
+
+      nav {
+        background-color: #f4a460;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding:15px;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      article {
+        background-color: #ffe4e1;
+        margin-top: 50px;
+        margin-right: 80px;
+        margin-left: 80px;
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      section .row{
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap:15px;
+      }
+      section .row .col{
+        min-height: 50px;
+        padding: 15px;
+      }
+
+
+      footer .row{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-gap:15px;
+      }
+      footer .row .col{
+        padding: 15px;
+      }
+
+
+      footer {
+        background-color: #d2b48c;
+        margin-right: 80px;
+        margin-left: 80px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        padding: 15px;
+        text-align: center;
+      }
+
+      @media (max-width: 767px){
+
+
+        .encabezado,.nav,.sec,.footer{
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="encabezado">
+        <h1>Outfit Style</h1>
+      </div>
+    </header>
+
+    <nav>
+      <div class="row">
+          <div class="col" > <a href="index.html">Inicio</a>
+            </div>
+          <div class="col" > <a href="estilos.html">Estilos</a>
+            </div>
+      </div>
+    </nav>
+
+    <section>
+
+      <article>
+        <div class="row">
+          <div class="col" >
+            <img src="sporty1.jpg" style="width:30%; height:auto;" />
+            <img src="sporty2.jpg" style="width:30%; height:auto;" />
+            <img src="sporty3.jpg" style="width:30%; height:auto;" />
+          </div>
+          <div class="col" >
+            <h2>Estilo Sporty</h2>
+            <p>
+              ¿Siempre tienes prisa y te gusta ir cómoda? Entonces deja que tu
+              estilo de vestir se adecúe a tu manera de vida y opta por el estilo
+              sporty chic. Sí, hay muchas prendas deportivas que quedan mejor
+              cuando no haces deporte con ellas.
+            </p>
+            <h3>Las claves del estilo sporty</h3>
+            <p>
+              Tennis, sudaderas de moda, camisetas, pantalones de chandal, pero
+              también minifaldas y jeans combinados con prendas deportivas. Y,
+              para las más atrevidas, mallas de ciclista con calcetines.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="row">
+          <div class="col" >
+           <h2>Estilo Grunge</h2>
+           <p>
+            ¿Prefieres apostar por un conjunto rebelde, cómodo y desenfadado?
+            Entonces toma nota del estilo grunge.
+           </p>
+           <h3>Las claves del estilo grunge</h3>
+           <p>
+            Camisas de cuadros, jeans rotos, camisetas de tus grupos favoritos y
+            las botas Dr. Martens (o cualquier tipo de bota o calzado "basto")
+            son los imprescindibles para conseguir un look desenfadado y
+            rebelde.
+           </p>
+          </div>
+         <div class="col" >
+            <img src="grunge3.jpg" width="30%" />
+            <img src="grunge2.jpg" width="30%" />
+            <img src="grunge1.jpg" width="30%" />
+         </div>
+       </div>
+      </article>
+
+      <article>
+        <div class="row">
+          <div class="col" >
+            <img src="urban2.jpg" width="30%" />
+            <img src="urban1.jpg" width="30%" />
+            <img src="urban3.jpg" width="30%" />
+         </div>
+         <div class="col" >
+           <h2>Estilo Urban-Chic</h2>
+           <p>
+            ¿Te gusta la moda cómoda, actual y libre, que se adapte a tu estilo
+            y no al revés? Entonces fíjate en el estilo urban-chic y busca
+            siempre una versión modernizada de básicos para darles ese toque
+            chic que añadirá estilo a tus looks.
+           </p>
+           <h3>Las claves del estilo urban-chic</h3>
+           <p>
+            Se trata de un estilo funcional y práctico. No renuncies a las
+            tendencias, pero tampoco a la comodidad, y opta por ese toque
+            clásico de las prendas atemporales. ¿Un consejo? Pon especial
+            énfasis en la funcionalidad de tus compras. Si eliges un bolso
+            grande, que sea ligero; y si compras unos tacones asegúrate de que
+            sean cómodos.
+           </p>
+         </div>
+        </div>
+      </article>
+
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col">       
+  </div>
+        <div class="col">        2020
+  </div>
+        <div class="col">        
+  </div>
+      </div>
+    </footer>
+  </body>
+</html>
